@@ -1,0 +1,107 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contato {
+    background-color: #1c3f50;
+    font-family: "Krona One-Regular", Helvetica;
+    display: flex;
+    flex-direction: column; /* Altere para "column" para ocupar a altura total */
+    justify-content: center;
+    align-items: center; /* Adicione para centralizar verticalmente */
+    width: 100%;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    position: relative;
+}
+
+.contato .cerebro {
+    background-image: url(../../../img/imgLogin/cerebro.png);
+    background-size: 100% 100%;
+    height: 100px;
+    width: 110px;
+    left: 70px;
+    top: 40px;
+    object-fit: contain;
+    position: absolute;
+}
+
+.contato .text-Edutech {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    left: 170px;
+    width: 300px;
+    top: 50px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+
+.contato .kids-studying {
+    background-image: url(../../../img/imgLogin/kids-studying.png);
+    background-size: 105% 110%;
+    height: 800px;
+    left: 220px;
+    object-fit: contain;
+    position: fixed;
+    top: 180px;
+    width: 950px;
+}
+
+.contato .RetanguloBranco {
+    background-image: url(../../../img/imgLogin/rectangle-6.png);
+    background-size: 100% 100%;
+    height: 730px;
+    left: 1390px;
+    position: absolute;
+    top: 200px;
+    width: 800px;
+}
+
+.contato .RetanguloAzu {
+    background-image: url(../../../img/imgLogin/rectangle_7.png);
+    height: 130px;
+    width: 795px;
+    top: 50px;
+    position: absolute;
+}
+
+.contato .text-fale {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    height: 120px;
+    line-height: normal;
+    text-align: center;
+    top: 80px;
+    width: 800px;
+    position: absolute;
+}
+
+.contato .whatsapp {
+    background-image: url(../../../img/imgLogin/whatsapp.png);
+    background-color: #ffffff;
+    border: none;
+    background-size: 100% 100%;
+    height: 100px;
+    left: 160px;
+    position: absolute;
+    top: 560px;
+    width: 480px;
+    cursor: pointer;
+}
+
+.contato .formas-contato {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+    left: 26px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 205px;
+    width: 756px;
+    word-wrap: break-word;
+}

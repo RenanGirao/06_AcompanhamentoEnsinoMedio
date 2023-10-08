@@ -1,0 +1,146 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    background-color: #1c3f50;
+    font-family: "Krona One-Regular", Helvetica;
+    display: flex;
+    flex-direction: column; /* Altere para "column" para ocupar a altura total */
+    justify-content: center;
+    align-items: center; /* Adicione para centralizar verticalmente */
+    width: 100%;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    position: relative;
+}
+
+.login .cerebro {
+    background-image: url(../../../img/imgLogin/cerebro.png);
+    background-size: 100% 100%;
+    height: 100px;
+    width: 110px;
+    left: 70px;
+    top: 40px;
+    object-fit: contain;
+    position: absolute;
+}
+
+.login .text-Edutech {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    left: 170px;
+    width: 300px;
+    top: 50px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+
+.login .RetanguloBranco {
+    background-image: url(../../../img/imgLogin/rectangle-1.png);
+    background-size: 100% 100%;
+    height: 630px;
+    left: 1500px;
+    position: absolute;
+    top: 270px;
+    width: 600px;
+}
+
+.login #email {
+    background-color: #e8e6fc;
+    font-size: 22px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 50px;
+    left: 107px;
+    position: absolute;
+    top: 258px;
+    width: 390px;
+}
+  
+  .login #senha {
+    background-color: #e8e6fc;
+    font-size: 22px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 50px;
+    left: 107px;
+    position: absolute;
+    top: 340px;
+    width: 390px;
+}
+
+input::placeholder {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    left: 35px;
+    letter-spacing: 0;
+    opacity: 0.3;
+    top: 14px;
+    width: 275px;
+    position: absolute;
+    line-height: normal;
+}
+
+.login .cred-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    left: 195px;
+    opacity: 0.3;
+    position: absolute;
+    text-align: center;
+    top: 530px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.login .RetanguloAzul {
+    background-image: url(../../../img/imgLogin/rectangle-5.png);
+    background-size: 100% 100%;
+    height: 130px;
+    left: 0;
+    position: absolute;
+    top: 60px;
+    width: 600px;
+  }
+
+.login .cerebro2 {
+    background-image: url(../../../img/imgLogin/cerebro.png);
+    background-size: 100% 100%;
+    height: 100px;
+    width: 110px;
+    left: 70px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+}
+
+.login .text-Edutech2 {
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: 400;
+    left: 200px;
+    width: 300px;
+    top: 20px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+
+.login .kids-studying {
+    background-image: url(../../../img/imgLogin/kids-studying.png);
+    background-size: 105% 110%;
+    height: 800px;
+    left: 220px;
+    object-fit: contain;
+    position: fixed;
+    top: 180px;
+    width: 950px;
+}

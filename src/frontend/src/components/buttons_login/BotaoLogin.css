@@ -1,0 +1,23 @@
+.button-container {
+  position: fixed;
+  top: 80px; /* Distância do topo da tela */
+  right: 270px; /* Distância da direita da tela */
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Espaçamento entre os botões */
+}
+
+.button {
+  background-color: #1c3f50;
+  color: #ffffff;
+  font-size: 24px; /* Tamanho da fonte */
+  border: none;
+  padding: 10px 20px;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  background-color: #0ec46f;
+}
